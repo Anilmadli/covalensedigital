@@ -1,0 +1,173 @@
+body {
+   background-color: #F1F3F9 !important;
+  }
+  
+.asset-info-wrapper {
+  background-color: #fff;
+  border-radius: 6px;
+}
+.heading-info {
+  margin-bottom: 18px;
+}
+
+.heading-info .heading-text {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: #4B465C;
+}
+
+.heading-info .sim-text {
+  font-family: 'Public Sans', sans-serif;
+    background-color:rgba(24, 164, 255, 0.2);
+    color:rgb(24, 164, 255);
+    padding:2px 8px;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.description-tile {
+  border:1px solid #DBDADE;
+  border-radius: 10px;
+  /* width: 17%; */
+}
+.description-tile-heading {
+  font-family: Public Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.description-tile-subtitle {
+  color: rgba(75, 70, 92, 0.4);
+  font-family: Public Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.description-tile-subtitle span{
+  color: #4B465C;
+}
+.status-start-date-valid-till-wrapper .status p, .status-start-date-valid-till-wrapper .start-date p, .status-start-date-valid-till-wrapper .valid-till p{
+  color: rgba(75, 70, 92, 0.4);
+  font-family: Public Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  margin:0px;
+}
+.status-start-date-valid-till-wrapper .status span, .status-start-date-valid-till-wrapper .start-date span, .status-start-date-valid-till-wrapper .valid-till span{
+  color: rgba(75, 70, 92, 0.8);
+  font-family: Public Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  margin:0px;
+}
+.product-image-container img{
+  background-color: rgba(40, 199, 111, 0.08);
+  padding: 8px;
+}
+.feature-one-img-container img, .feature-four-img-container img{
+  background-color: rgba(75, 70, 92, 0.08);
+  padding: 8px;
+}
+.feature-two-img-container img {
+  background-color: rgba(40, 199, 111, 0.08);
+  padding: 8px;
+}
+.feature-three-img-container img {
+  background-color: rgba(234, 84, 85, 0.08);
+  padding: 8px;
+}
+
+
+/* media queries */
+@media only screen and (min-width: 1400px) and (max-width: 1800px){ 
+  .description-tile {
+    width: 18.966667%;
+    margin-right: 10px !important;
+  }
+  .description-tile-heading {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1400px){
+  .description-tile {
+    width: 23.6% !important;
+    margin-bottom: 16px;
+  }
+  .description-tile-heading {
+    font-size: 16px;
+  }
+ }
+
+ @media only screen and (min-width: 991px) and (max-width:1100px){
+  .description-tile {
+    width: 31.5% !important;
+    margin-bottom: 16px;
+  }
+  .description-tile-heading {
+    font-size: 16px;
+  }
+  .description-tile:nth-child(3){
+    margin-right: 0px  !important;
+  }
+  .description-tile-wrapper {
+    justify-content: start !important;
+  }
+ }
+ @media only screen and (min-width: 768px) and (max-width: 991px){
+  .description-tile {
+    margin: 0px 5px 5px 0px !important;
+    padding: 5px !important;
+    width: 32.533333% !important;
+  }
+  .description-tile-heading {
+    font-size: 14px;
+  }
+  .description-image-contaier {
+    margin-right: 10px !important;
+  }
+  .description-tile-subtitle {
+    font-size: 12px;
+  }
+  .description-tile-wrapper {
+    justify-content:  start !important;
+  }
+ }
+ @media only screen and (min-width: 320px) and (max-width: 768px){
+  .heading-info .heading-text {
+    font-size: 13px;
+  }
+  .heading-info .sim-text {
+    font-size: 12px;
+  }
+  .description-tile {
+    margin: 0px 0px 10px 0px !important;
+    padding: 5px !important;
+  }
+  .description-tile-heading {
+    font-size: 13px;
+  }
+  .description-tile-subtitle {
+    font-size: 10px;
+  }
+  .description-image-contaier {
+    margin-right: 10px !important;
+  }
+  .product-image-container img {
+    padding: 4px !important;
+  }
+  .status-start-date-valid-till-wrapper {
+    column-gap: 10px;
+  }
+
+ }
