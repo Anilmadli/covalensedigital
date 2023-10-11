@@ -6,6 +6,9 @@ body {
   background-color: #fff;
   border-radius: 6px;
 }
+.asset-info-right-section {
+  margin-right: 110px;
+}
 .heading-info {
   margin-bottom: 18px;
 }
