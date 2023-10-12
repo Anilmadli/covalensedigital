@@ -147,6 +147,9 @@ body {
   }
  }
  @media only screen and (min-width: 320px) and (max-width: 768px){
+  .content-main-wrapper {
+    padding: 0px 15px 0px !important;
+  }
   .heading-info .heading-text {
     font-size: 13px;
   }
@@ -171,6 +174,15 @@ body {
   }
   .status-start-date-valid-till-wrapper {
     column-gap: 10px;
+  }
+  .asset-info-left-right-section-wrapper {
+    display: block !important;
+  }
+  .asset-info-right-section {
+    margin-right: 0px !important;
+    text-align: right;
+    margin-bottom: 10px;
+    
   }
 
  }
